@@ -1,0 +1,66 @@
+#sidebarL {
+  border-radius: 50px;
+  display: inline-block;
+
+  width: 25%;
+  min-height: 500px;
+
+  align-self: top;
+  background: #3A3939;
+  vertical-align: top;
+
+  transition: width 1.5s;
+  padding: 15px;
+}
+
+#sidebarL:hover {
+  width: 100%;
+}
+
+#middlebar {
+  display: inline-block;
+  max-width: 70%;
+}
+
+
+
+#wrapper {
+  height: 100%;
+  padding: 10px;
+  
+  border-radius: 50px;
+  background: #333333;
+  background-image: none;
+
+  box-shadow: 5px 5px 15px 10px #161616;
+  
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  min-width: 80%;
+  max-width: 100px;
+
+  box-shadow: 3px 3px 15px 5px #161616;
+}
+
+
+body {
+  padding: 5%;
+  margin: 0px;
+  color: #978D96;
+  font: 12px Tahoma, sans-serif;
+  background: #1E1E28;
+  background-image: url(noise.png);
+  background-repeat: repeat;
+}
+
+div, nav, section{
+  border-radius: 50px;
+  margin: 1%;
+}
+
